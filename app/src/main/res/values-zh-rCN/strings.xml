@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NitroShare</string>
+
+    <!-- Transfer activity -->
+    <string name="activity_transfer_empty_text">没有进行中的传输</string>
+    <string name="activity_transfer_navigation_drawer_open">打开导航抽屉</string>
+    <string name="activity_transfer_navigation_drawer_close">关闭导航抽屉</string>
+
+    <!-- Transfer menu -->
+    <string name="menu_transfer_title">NitroShare</string>
+    <string name="menu_transfer_subtitle">设备：%1$s</string>
+    <string name="menu_transfer_item_send">发送项目</string>
+    <string name="menu_transfer_item_settings">设置</string>
+    <string name="menu_transfer_item_intro">介绍</string>
+    <string name="menu_transfer_item_report">报告错误</string>
+    <string name="menu_transfer_item_about">关于</string>
+    <string name="menu_transfer_item_exit">退出</string>
+
+    <!-- Intro activity -->
+    <string name="activity_intro_intro_title">介绍</string>
+    <string name="activity_intro_intro_description">NitroShare可以轻松地将文件发送到您本地网络上的其他设备。</string>
+    <string name="activity_intro_share_title">发送文件</string>
+    <string name="activity_intro_share_description">使用NitroShare从其他Android应用程序例如Gallery、Google Docs和 Google Photos中发送文件。</string>
+    <string name="activity_intro_desktop_title">桌面应用</string>
+    <string name="activity_intro_desktop_description">NitroShare for Android适用于桌面应用程序，包括Windows、macOS和Linux。</string>
+    <string name="activity_intro_desktop_button">访问网站</string>
+    <string name="activity_intro_perms_title">权限</string>
+    <string name="activity_intro_perms_description">NitroShare需要您Android设备上读写文件的权限才能发送和接收文件。</string>
+
+    <!-- Explorer activity -->
+    <string name="activity_explorer">发送项目</string>
+    <string name="activity_explorer_internal">内部存储</string>
+    <string name="activity_explorer_removable">移动存储(%1$s)</string>
+    <string name="activity_explorer_hint">长按可发送多个项目</string>
+    <string name="activity_explorer_error">无法打开目录：\n%1$s</string>
+    <string name="activity_explorer_kb">%1$d KB</string>
+    <string name="activity_explorer_mb">%1$d MB</string>
+    <string name="activity_explorer_gb">%1$d GB</string>
+
+    <string name="menu_explorer_actions_send">发送</string>
+    <string name="menu_explorer_options_show_hidden">发送隐藏项目</string>
+
+    <!-- Share activity -->
+    <string name="activity_share">使用NitroShare发送</string>
+    <string name="activity_share_label">从以下列表选择接收传输的设备：</string>
+    <string name="activity_share_intent">NitroShare无法发送从第三方应用程序接收的数据。</string>
+    <string name="activity_share_permissions">NitroShare无法在未授予访问存储权限的情况下传输数据。</string>
+
+    <!-- Settings activity -->
+    <string name="activity_settings">设置</string>
+    <string name="activity_settings_category_general">常规</string>
+    <string name="activity_settings_category_appearance">外观</string>
+    <string name="activity_settings_pref_device_name">设备名称</string>
+    <string name="activity_settings_pref_transfer_directory">传输目录</string>
+    <string name="activity_settings_pref_behavior_receive">接收传输</string>
+    <string name="activity_settings_pref_behavior_receive_summary">从其他设备接受传入传输</string>
+    <string name="activity_settings_pref_behavior_overwrite">覆盖</string>
+    <string name="activity_settings_pref_behavior_overwrite_summary">替换存在的同名文件</string>
+    <string name="activity_settings_category_notifications">通知</string>
+    <string name="activity_settings_pref_notification_sound">通知声音</string>
+    <string name="activity_settings_pref_notification_sound_summary">传输完成时播放声音</string>
+    <string name="activity_settings_darkTheme">暗色主题</string>
+    <string name="activity_settings_darkTheme_summary">启用备用的暗色主题代替标准的亮色主题</string>
+
+    <!-- Directory fragment -->
+    <string name="dialog_directory_message">点击目录名称打开目录。长按选择目录。</string>
+    <string name="dialog_directory_select">选择</string>
+
+    <!-- About activity -->
+    <string name="activity_about">关于</string>
+    <string name="activity_about_subtitle">跨平台文件传输应用程序</string>
+    <string name="activity_about_version">版本：</string>
+    <string name="activity_about_last_updated">上次更新：</string>
+    <string name="activity_about_license" tools:ignore="TypographyOther">
+        <![CDATA[The MIT License (MIT)\n\nCopyright (c) 2018 Nathan Osman\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.]]>
+    </string>
+
+    <!-- Transfer service -->
+    <string name="service_transfer_title">NitroShare传输</string>
+    <string name="service_transfer_action_stop">停止</string>
+    <string name="service_transfer_action_retry">重试</string>
+    <string name="service_transfer_server_title">NitroShare服务</string>
+    <string name="service_transfer_server_listening_text">正在监听传入传输</string>
+    <string name="service_transfer_status_connecting">正在连接到%1$s…</string>
+    <string name="service_transfer_status_receiving">正在从%1$s接收项目…</string>
+    <string name="service_transfer_status_sending">正在发送项目到%1$s…</string>
+    <string name="service_transfer_status_success">传输%1$s完成</string>
+    <string name="service_transfer_status_error">传输%1$s失败：%2$s</string>
+    <string name="service_transfer_unknown_device">[未知]</string>
+    <string name="service_transfer_notification_url">URL</string>
+
+    <!-- Transfer notification manager -->
+    <string name="channel_service_name">传输服务</string>
+    <string name="channel_transfer_name">进行中的传输</string>
+    <string name="channel_notification_name">传输完成</string>
+
+    <!-- Transfer adapter -->
+    <string name="adapter_transfer_connecting">正在连接…</string>
+    <string name="adapter_transfer_transferring">正在传输：%1$d%%</string>
+    <string name="adapter_transfer_failed">失败：%1$s</string>
+    <string name="adapter_transfer_succeeded">成功</string>
+    <string name="adapter_transfer_unknown">未知</string>
+    <string name="adapter_transfer_bytes">%1$s / %2$s</string>
+    <string name="adapter_transfer_stop">停止</string>
+    <string name="adapter_transfer_retry">重试</string>
+
+</resources>
